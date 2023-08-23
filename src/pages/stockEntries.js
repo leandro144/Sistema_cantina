@@ -93,7 +93,7 @@ const StockEntries = () => {
               {listProducts &&
                 listProducts.length > 0 &&
                 listProducts.map((item, i) => (
-                  <option key={i} value={item.id}>
+                  <option color="#fff" key={i} value={item.id}>
                     {item.name}
                   </option>
                 ))}

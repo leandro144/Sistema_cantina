@@ -18,10 +18,12 @@
     "eslint-config-next": "13.4.12",
     "framer-motion": "^10.15.0",
     "mysql": "^2.18.1",
-    "mysql2": "^3.5.2",
+    "mysql2": "^3.6.0",
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.10.1"
+    "react-icons": "^4.10.1",
+    "sequelize": "^6.32.1",
+    "sequelize-cli": "^6.6.1"
   }
 }

@@ -91,11 +91,11 @@ const Balance = () => {
               value={productFiltered}
               onChange={(e) => setProductFiltered(e.target.value)}
             >
-              <option value="">Selecione um item</option>
+              <option color="#fff" value="">Selecione um item</option>
               {cmbProducts &&
                 cmbProducts.length > 0 &&
                 cmbProducts.map((item, i) => (
-                  <option key={i} value={item.product_id}>
+                  <option color="#fff" key={i} value={item.product_id}>
                     {item.product_name}
                   </option>
                 ))}

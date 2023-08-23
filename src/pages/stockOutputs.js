@@ -89,7 +89,7 @@ const StockOutputs = () => {
               value={product_id}
               onChange={(e) => setProduct_id(e.target.value)}
             >
-              <option value="0">Selecione um item</option>
+              <option color="#fff" value="0">Selecione um item</option>
               {listProducts &&
                 listProducts.length > 0 &&
                 listProducts.map((item, i) => (
